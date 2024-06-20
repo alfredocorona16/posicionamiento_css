@@ -5,6 +5,7 @@
     border: 4px solid black;
     padding: 20px;
     width: 400px;
+    position: relative;
 }
 .red-box{
     background-color: red;
@@ -13,9 +14,9 @@
 /*item pociionamiento relativo*/
 .blue-box{
     background-color: blue;
-    position: relative;
-    top: 10px;
-    left: 80px;
+    position:absolute;
+    bottom: 0;
+    right: 20px;
 }
 .green-box{
     background-color: green;
