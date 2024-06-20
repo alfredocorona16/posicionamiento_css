@@ -10,11 +10,12 @@
     background-color: red;
 
 }
+/*item pociionamiento relativo*/
 .blue-box{
     background-color: blue;
     position: relative;
     top: 10px;
-    left: 160px;
+    left: 80px;
 }
 .green-box{
     background-color: green;

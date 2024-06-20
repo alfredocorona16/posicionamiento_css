@@ -1,0 +1,28 @@
+.container{
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    border: 4px solid black;
+    padding: 20px;
+    width: 400px;
+}
+.red-box{
+    background-color: red;
+
+}
+/*item pociionamiento relativo*/
+.blue-box{
+    background-color: blue;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.green-box{
+    background-color: green;
+}
+.red-box, .blue-box, .green-box{
+width: 100PX;
+height: 100PX;
+margin-right: 20px;
+
+}
